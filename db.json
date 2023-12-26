@@ -1,0 +1,202 @@
+{
+  "seller": [
+    {
+      "name": "Rajiv Gupta",
+      "email": "rajiv@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "Kishan Gupta",
+      "email": "kishan@seller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Puja Chauhan",
+      "email": "puja@seller.com",
+      "password": "abc@123",
+      "id": 3
+    },
+    {
+      "name": "pritam",
+      "password": "abc@123",
+      "email": "pritam@test.com",
+      "id": 4
+    },
+    {
+      "name": "Abhishek Chauhan",
+      "password": "abc@123",
+      "email": "abhishek@seller.com",
+      "id": 5
+    },
+    {
+      "name": "Ayush Prajapati",
+      "password": "abc@123",
+      "email": "ayush@seller.com",
+      "id": 6
+    },
+    {
+      "name": "Rajiv",
+      "password": "abc123",
+      "email": "rajiv@user.com",
+      "id": 7
+    }
+  ],
+  "products": [
+    {
+      "name": "IPhone 14 Ulta Pro Max",
+      "price": "250500",
+      "color": "Purple",
+      "category": "Mobiles",
+      "description": "Awesome Mobile in the world\n",
+      "image": "https://sm.pcmag.com/t/pcmag_au/news/a/apple-ipho/apple-iphone-14-supports-up-to-8-esims-and-dual-active-esims_4hsa.1920.jpg",
+      "id": 1
+    },
+    {
+      "name": "LG Refrigerator",
+      "price": "45000",
+      "color": "blue",
+      "category": "Fridge",
+      "description": "Best fridge in this price.",
+      "image": "https://i.pinimg.com/originals/e5/92/83/e592836e8d340fed4b9052180fc63a9d.png",
+      "id": 3
+    },
+    {
+      "name": "Washing Machine (Samsung)",
+      "price": "31999",
+      "color": "Black",
+      "category": "Washing Machine",
+      "description": "Best washing machine",
+      "image": "https://images.samsung.com/is/image/samsung/assets/in/microsite/fully-automatic-washing-machines/front-load/eco-main-bnr-img-d3.jpg?$ORIGIN_JPG$",
+      "id": 4
+    },
+    {
+      "name": "Microsoft Surface Laptop 5",
+      "price": "149999",
+      "color": "silver",
+      "category": "laptop",
+      "description": "laptop is designed by microsoft.",
+      "image": "https://www.watson.ch/imgdb/b0e6/Qx,A,51,97,675,428,380,246,41,41/2018682713380956",
+      "id": 5
+    },
+    {
+      "name": "Sony SRS XB-43",
+      "price": "18499",
+      "color": "Black",
+      "category": "Wireless Speaker",
+      "description": "Bluetooth Home Theatre for party.",
+      "image": "https://jaybest.com/image/cache/catalog/PRODUCTS/Sony%20SRS-XB43/91lXWgTZx8L._AC_SL1500_-1000x1000.jpg",
+      "id": 6
+    },
+    {
+      "name": "Intex led SU5510 (140CM)",
+      "price": "45000",
+      "color": "Black",
+      "category": "LED TV",
+      "description": "Smart TV and best visualization",
+      "image": "https://aws-obg-image-lb-3.tcl.com/content/dam/brandsite/region/argentina/news/TCL-smart-TV.png",
+      "id": 7
+    },
+    {
+      "name": "Apple Watch SE",
+      "price": "31499",
+      "color": "red",
+      "category": "Watch",
+      "description": "Get's you more feature for less.",
+      "image": "https://itechstore.co.in/wp-content/uploads/2021/06/Watch-SE2.jpg",
+      "id": 8
+    },
+    {
+      "name": "Gemini Headphone",
+      "price": "4999",
+      "color": "white",
+      "category": "Headphone",
+      "description": "Full DJ Bass Music headphone",
+      "image": "https://www.audio-issues.com/wp-content/uploads/2011/01/best-headphones-audio-production.jpg",
+      "id": 9
+    },
+    {
+      "name": "Brass Home Decor Set",
+      "price": "77500",
+      "color": "yellow",
+      "category": "Decoration",
+      "description": "To Invest On For Impressive Decor",
+      "image": "https://www.theadvitya.in/wp-content/uploads/otwpct/tmb/Home-Decor-Products-To-Invest-On-For-Impressive-Decor-Banner_1672393081_1180X580_c_c_0_0.png",
+      "id": 10
+    }
+  ],
+  "users": [
+    {
+      "name": "Rajiv",
+      "email": "rajiv@user.com",
+      "password": "abc123",
+      "id": 1
+    },
+    {
+      "name": "Kishan Gupta",
+      "email": "kishan@user.com",
+      "password": "abc123",
+      "id": 2
+    },
+    {
+      "name": "Pritam Tharu",
+      "email": "pritam@user.com",
+      "password": "abc123",
+      "id": 3
+    },
+    {
+      "name": "rajiv",
+      "email": "rajiv@seller.com",
+      "password": "sss",
+      "id": 4
+    },
+    {
+      "name": "Abhishek Chauhan",
+      "email": "abhishek@user.com",
+      "password": "abc123",
+      "id": 5
+    },
+    {
+      "name": "Puja Chauhan",
+      "email": "puja@user.com",
+      "password": "abc123",
+      "id": 6
+    },
+    {
+      "name": "Ayush Prajapati",
+      "email": "ayush@user.com",
+      "password": "abc123",
+      "id": 7
+    },
+    {
+      "name": "Mr",
+      "email": "mrstrange424@gmail.com",
+      "password": "424@gmail.com",
+      "id": 8
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "id": 9
+    },
+    {
+      "name": "Rajiv",
+      "email": "rajiv@user.com",
+      "password": "r123",
+      "id": 10
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "email": "rajiv@user.com",
+      "address": "Ahmedabad",
+      "contact": 8002497171,
+      "totalPrice": 250605,
+      "userId": 6,
+      "id": 1
+    }
+  ]
+}

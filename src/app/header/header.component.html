@@ -1,0 +1,41 @@
+<nav class="nav">
+    <h1><a routerLink="">E-Commerce</a></h1>
+    <div *ngIf = "menuType ==='default' || menuType === 'user'" class="nav-search">
+        <input type="text"
+        #searchInput (keyup)="searchProduct($event)" (blur)="hideSearch()" placeholder="Search For Products" />
+        <button (click)="submitSearch(searchInput.value)">Search</button>
+        <ul class="suggested-result" *ngIf="searchResult">
+            <li *ngFor="let item of searchResult">
+                <a (mousedown)="redirectToDetail(item.id)">{{item.name}}</a>
+            </li>
+        </ul>
+    </div>
+
+   <div [ngSwitch]="menuType">
+
+    <ul *ngSwitchCase="'default'">
+        <li><i class="fa fa-house"></i><a routerLink="">&nbsp; Home</a></li>
+        <li><i class="fa fa-user"></i><a routerLink="/seller-auth">&nbsp; Seller</a></li>
+        <li><i class="fa fa-right-to-bracket"></i><a routerLink="/user-auth">&nbsp; Login/Sign-up</a></li>
+        <li><i class="fa fa-cart-shopping"></i><a href="#Cart">&nbsp; Cart({{cartItems}})</a></li>
+    </ul>
+
+    <ul *ngSwitchCase="'user'">
+        <li><i class="fa fa-house"></i><a routerLink="">&nbsp; Home</a></li>
+        <li><i class="fa fa-user"></i><a routerLink="/seller-auth">&nbsp; Seller</a></li>
+        <li><i class="fa fa-user-secret"></i><a>&nbsp; {{userName | titlecase}}</a></li>
+        <li><i class="fa fa-cart-shopping"></i><a routerLink="my-orders">&nbsp; My Orders</a></li>
+        <li><i class="fa fa-right-from-bracket"></i><a (click)="userLogout()" >&nbsp; Logout</a></li>
+        <li><i class="fa fa-cart-shopping"></i><a [routerLink]="cartItems>0?'cart-page':null">&nbsp; Cart({{cartItems}}) </a></li>
+    </ul>
+
+    <ul *ngSwitchCase="'seller'">
+        <li><i class="fa fa-circle-plus"></i><a routerLink="/seller-add-product">&nbsp; Add Product</a></li>
+        <li><i class="fa fa-list"></i><a routerLink="/seller-home" >&nbsp; Product List</a></li>
+        <li><i class="fa fa-right-from-bracket"></i><a (click)="logout()" >&nbsp; Logout</a></li>
+        <li><i class="fa fa-user-secret"></i><a>&nbsp; {{sellerName | titlecase}}</a></li>
+    </ul>
+
+   </div>
+
+</nav>

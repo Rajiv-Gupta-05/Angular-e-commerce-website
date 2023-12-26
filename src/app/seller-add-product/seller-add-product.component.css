@@ -1,0 +1,9 @@
+.add-product h1{
+    color: brown;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+}
+.add-product{
+    text-align: center;
+}

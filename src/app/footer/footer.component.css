@@ -1,0 +1,49 @@
+footer{
+    position: fixed;
+    background: rgb(3, 218, 247);
+    max-height: 75px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+footer .social-icon{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-top: 6px;
+    flex-wrap: wrap;
+}
+footer .social-icon li{
+    list-style: none;
+}
+footer .social-icon li a{
+    font-size: 1.3em;
+    color: black;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+
+footer .social-icon li a:hover{
+    transform: rotate(360deg);
+}
+
+footer p{
+    color: black;
+    text-align: center;
+    font-size: 0.90em;
+    font-style: oblique;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+footer p i{
+    color: red;
+}
+

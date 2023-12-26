@@ -1,1 +1,55 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Poppins' sans-serif;
+    background-color: rgb(110, 227, 231);
+}
+
+.container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.common-form {
+    text-align: center;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-input {
+    height: 35px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    border: 2px solid brown;
+    color: brown;
+}
+
+.form-button {
+    height: 35px;
+    border: 2px solid brown;
+    cursor: pointer;
+}
+.error {
+    color: red;
+    animation: blink 1s linear infinite;
+}
+.message-p{
+    color: green;
+    text-align: center;
+}
+.carousel-caption{
+    background-color: #00000082;
+    border-radius: 5px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black;
+    border: 5px;
+}
+.invalid-input{
+    color: red;
+    font-size: 12px;
+    margin-top: -20px;
+}
+button:disabled{
+    cursor: not-allowed;
+}
